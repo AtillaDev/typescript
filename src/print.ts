@@ -1,9 +1,11 @@
-function greet(name: string | null) {
-  if (name) {
-    console.log(name.toUpperCase());
-  } else {
-    console.log('hello');
-  }
-}
+type Customer = { birthday: Date };
 
-greet(null);
+function getCustomer(id: number): Customer | null | undefined {
+  return id === 0 ? null : { birthday: new Date() };
+}
+let customer = getCustomer(0);
+
+console.log(customer?.birthday?.getFullYear());
+
+// Optional element chainig
+// customers?.[0]
