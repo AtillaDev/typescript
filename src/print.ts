@@ -1,3 +1,5 @@
-let numbers: number[] = [1, 2, 3];
+let user: [number, string] = [1, 'Atila'];
+user[0].toFixed();
+user[1].split('');
 
-numbers.forEach(n => n.);
+user.push();
