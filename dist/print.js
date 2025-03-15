@@ -1,5 +1,7 @@
 "use strict";
-let user = [1, 'Atila'];
-user[0].toFixed();
-user[1].split('');
+const small = 1;
+const medium = 2;
+const large = 3;
+let mySize = 2;
+console.log(mySize);
 //# sourceMappingURL=print.js.map

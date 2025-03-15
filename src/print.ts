@@ -1,5 +1,14 @@
-let user: [number, string] = [1, 'Atila'];
-user[0].toFixed();
-user[1].split('');
+const small = 1;
+const medium = 2;
+const large = 3;
 
-user.push();
+// PascalCase
+const enum Size {
+  Small = 1,
+  Meduim,
+  Large,
+}
+
+// console.log(Size);
+let mySize: Size = Size.Meduim;
+console.log(mySize);
